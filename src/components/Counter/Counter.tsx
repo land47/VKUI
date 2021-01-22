@@ -2,6 +2,7 @@ import React, { HTMLAttributes } from 'react';
 import classNames from '../../lib/classNames';
 import getClassName from '../../helpers/getClassName';
 import usePlatform from '../../hooks/usePlatform';
+import './Counter.css';
 
 export interface CounterProps extends HTMLAttributes<HTMLDivElement> {
   /**

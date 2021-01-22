@@ -4,6 +4,7 @@ import Tappable, { ACTIVE_EFFECT_DELAY } from '../Tappable/Tappable';
 import classNames from '../../lib/classNames';
 import { IOS } from '../../lib/platform';
 import usePlatform from '../../hooks/usePlatform';
+import './TabsItem.css';
 
 export interface TabsItemProps extends HTMLAttributes<HTMLElement> {
   after?: ReactNode;

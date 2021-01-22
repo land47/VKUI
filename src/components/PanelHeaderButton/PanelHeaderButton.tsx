@@ -6,6 +6,7 @@ import usePlatform from '../../hooks/usePlatform';
 import { isPrimitiveReactNode } from '../../lib/utils';
 import { VKCOM } from '../../lib/platform';
 import Text from '../Typography/Text/Text';
+import './PanelHeaderButton.css';
 
 export interface PanelHeaderButtonProps extends Omit<TappableProps, 'label'> {
   primary?: boolean;

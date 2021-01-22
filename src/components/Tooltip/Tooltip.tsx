@@ -3,6 +3,7 @@ import classNames from '../../lib/classNames';
 import getClassName from '../../helpers/getClassName';
 import ReactDOM from 'react-dom';
 import { canUseDOM, DOMProps, withDOM } from '../../lib/dom';
+import './Tooltip.css';
 
 interface TooltipPortalProps extends Partial<TooltipProps> {
   target?: HTMLElement;

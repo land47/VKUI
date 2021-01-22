@@ -6,6 +6,7 @@ import { HasAlign, HasRootRef } from '../../types';
 import withAdaptivity, { AdaptivityProps, SizeType } from '../../hoc/withAdaptivity';
 import usePlatform from '../../hooks/usePlatform';
 import { getClassName } from '../..';
+import '../Select/Select.css';
 
 export interface SelectMimicryProps extends
   HTMLAttributes<HTMLElement>,
@@ -62,4 +63,3 @@ export default withAdaptivity(SelectMimicry, {
   sizeX: true,
   sizeY: true,
 });
-

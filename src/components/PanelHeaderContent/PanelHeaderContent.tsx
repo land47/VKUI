@@ -4,6 +4,7 @@ import getClassName from '../../helpers/getClassName';
 import Tappable from '../Tappable/Tappable';
 import usePlatform from '../../hooks/usePlatform';
 import { hasReactNode } from '../../lib/utils';
+import './PanelHeaderContent.css';
 
 interface PanelHeaderContentProps extends HTMLAttributes<HTMLDivElement> {
   aside?: ReactNode;

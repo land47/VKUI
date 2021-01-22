@@ -7,6 +7,7 @@ import withAdaptivity, { AdaptivityProps, SizeType } from '../../hoc/withAdaptiv
 import { setRef } from '../../lib/utils';
 import { getClassName, HasPlatform } from '../..';
 import withPlatform from '../../hoc/withPlatform';
+import '../Select/Select.css';
 
 export interface NativeSelectProps extends
   SelectHTMLAttributes<HTMLSelectElement>,

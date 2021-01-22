@@ -18,6 +18,7 @@ import { VKUITouchEvent } from '../../lib/touch';
 import { setRef } from '../../lib/utils';
 import Text from '../Typography/Text/Text';
 import { Separator } from '../../index';
+import './Search.css';
 
 let searchId = 0;
 

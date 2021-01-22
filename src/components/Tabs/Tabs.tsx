@@ -5,6 +5,7 @@ import { HasRootRef } from '../../types';
 import usePlatform from '../../hooks/usePlatform';
 import { ANDROID, VKCOM } from '../../lib/platform';
 import withAdaptivity, { AdaptivityProps } from '../../hoc/withAdaptivity';
+import './Tabs.css';
 
 export interface TabsProps extends HTMLAttributes<HTMLDivElement>, HasRootRef<HTMLDivElement>, AdaptivityProps {
   mode?: 'default' | 'buttons' | 'segmented';

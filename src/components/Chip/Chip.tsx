@@ -2,6 +2,7 @@ import React, { FC, HTMLAttributes, ReactNode, useCallback, MouseEvent } from 'r
 import classNames from '../../lib/classNames';
 import { Icon16Cancel } from '@vkontakte/icons';
 import { getTitleFromChildren, hasReactNode, noop } from '../../lib/utils';
+import './Chip.css';
 
 type ChipValue = string | number;
 

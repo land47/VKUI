@@ -7,6 +7,7 @@ import { IOS } from '../../lib/platform';
 import usePlatform from '../../hooks/usePlatform';
 import { hasReactNode } from '../../lib/utils';
 import withAdaptivity from '../../hoc/withAdaptivity';
+import './SimpleCell.css';
 
 export interface SimpleCellOwnProps {
   /**

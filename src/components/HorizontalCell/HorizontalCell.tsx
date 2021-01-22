@@ -8,6 +8,7 @@ import Tappable from '../Tappable/Tappable';
 import Subhead from '../Typography/Subhead/Subhead';
 import Avatar from '../Avatar/Avatar';
 import { HasRef, HasRootRef } from '../../types';
+import './HorizontalCell.css';
 
 export interface HorizontalCellProps extends HTMLAttributes<HTMLDivElement>, HasRootRef<HTMLDivElement>, HasRef<HTMLDivElement> {
   size?: 's' | 'm' | 'l';
